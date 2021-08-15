@@ -1,6 +1,8 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// [1, 4, 3, 2, 5, 1, 6, 7] k = 3
+
 public class Solution {
     public static int minSlidingWindow(int[] nums, int k) {
         int max = Integer.MIN_VALUE;
